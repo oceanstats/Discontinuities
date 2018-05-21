@@ -10,7 +10,7 @@ Scripts 1_1 and 1_2: compile required data for project using matlab. 1_1 is for 
 
 Script 2 formats the matlab input into separate Longhurst regions for use by spTimer
 
-Script 3 was designed for a compute server and has the different regions being run in parallel with the MCMC separated into individual sections of 1000 iterations, with the next chain running from where the last chain finished. Parallel is used to allow for the slow computation which is particularly obvious in larger regions. With the MCMC being run in sections to avoid memory constraints.
+Script 3 was designed for a high power compute servers and has the different regions being run in parallel with the MCMC separated into individual sections of 1000 iterations, with the next chain running from where the last chain finished. Parallel is used to allow for the slow computation which is particularly obvious in larger regions. With the MCMC being run in sections to avoid memory constraints. 
 
 Script 4 combines the subdivided chains.
 
