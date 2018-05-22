@@ -16,11 +16,13 @@ Script 3 (3_x_sptmodel_run_parallel.R): Run the spTimer model based on the input
 
 Script 4 (4_x_Chain_combine.R) Combines the subdivided chains in the previous step, for further processing and analysis in following steps.
 
-Script 5 provides tabulation of the results and regional time-series
+Script 5 (5_x_tabulate.R) Provides tabulation and processing of the results for plotting in the next stage. Please note that the no discontinuity scenario is processed automatically alongside the other didscontinuity scenarios.
 
 Script 6 again reads this tabulation for global plots
 
 Longhurst_180.mat contains the Longhurst divisions as featured in Longhurst (1995; 1998) with cells either NA for outide of the defined regions or with a number representing the Longhurst province in question. 
+
+Longhurst_area.csv contains the area in km2 for each of the Longhurst provinces.
 
 spT_simple is included as a simple script based off this code that can be more easily adapted for other usage and testing.
 
