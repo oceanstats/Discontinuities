@@ -18,7 +18,7 @@ Script 4 (4_x_Chain_combine.R) Combines the subdivided chains in the previous st
 
 Script 5 (5_x_tabulate.R) Provides tabulation and processing of the results for plotting in the next stage. Please note that the no discontinuity scenario is processed automatically alongside the other didscontinuity scenarios.
 
-Script 6 again reads this tabulation for global plots
+Script 6 (6_plotting.R) Reads the tabulation from script 5 to create plots
 
 Longhurst_180.mat contains the Longhurst divisions as featured in Longhurst (1995; 1998) with cells either NA for outide of the defined regions or with a number representing the Longhurst province in question. 
 
